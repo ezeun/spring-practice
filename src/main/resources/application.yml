@@ -15,5 +15,6 @@ spring: #띄어쓰기 없음
 
 logging.level: #띄어쓰기 없음
   org.hibernate.SQL: debug #띄어쓰기 2칸
-# org.hibernate.type: trace #스프링 부트 2.x, hibernate5 #띄어쓰기 2칸
+  org.hibernate.orm.jdbc.bind: trace #스프링 부트 3.x, hibernate6
+#  org.hibernate.type: trace #스프링 부트 2.x, hibernate5 #띄어쓰기 2칸
 # org.hibernate.orm.jdbc.bind: trace #스프링 부트 3.x, hibernate6 #띄어쓰기 2칸
